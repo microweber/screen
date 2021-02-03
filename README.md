@@ -1,6 +1,6 @@
 # Screen
 
-Web site screenshot tool based on PHP and [PhantomJS](http://phantomjs.org/ "")
+Web site screenshot tool based on PHP and [PhantomJS](https://phantomjs.org/ "")
 You can use it to take screenshots for testing or monitoring service
 
 ## Install
@@ -11,9 +11,9 @@ Via Composer
 $ composer require microweber/screen
 ```
 
-If on any unix system, you need to make the `bin` executable `chmod +x /path/to/screen/bin/phantomjs`
+If on any Unix system, you need to make the `bin` executable `chmod +x /path/to/screen/bin/phantomjs`
 
-The directory `/path/to/screen/jobs` must be writeble as well.
+The directory `/path/to/screen/jobs` must be writable as well.
 
 ## Linux requirements
 
@@ -26,7 +26,7 @@ With this library you can make use of PhantomJs to screenshot a website.
 
 Check our [demo](/demo) or read the following instructions.
 
-Creating the object, you can either pass the url on the constructer or set it later on
+Creating the object, you can either pass the URL on the constructor or set it later on
 ``` php
 use Screen\Capture;
 
@@ -165,6 +165,6 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 - [André Filipe](https://github.com/MASNathan)
 - [All Contributors](../../contributors)
 
-Thanks to the [PhantomJS](http://phantomjs.org/ "Headless browser") ([LICENSE](https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD)) guys for creating their awesome WebKit scripting interface.
+Thanks to the [PhantomJS](https://phantomjs.org/ "Headless browser") ([LICENSE](https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD)) guys for creating their awesome WebKit scripting interface.
 
-This tool was originally created to take screenshots for [Microweber](http://microweber.com/ "Open Source CMS")
+This tool was originally created to take screenshots for [Microweber](https://microweber.com/ "Open Source CMS")
